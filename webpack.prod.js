@@ -5,5 +5,6 @@ module.exports = merge(common, {
   mode: "production",
   output: {
     publicPath: "/phoenix-travails/",
+    clean: true,
   },
 });
