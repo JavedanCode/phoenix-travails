@@ -1,3 +1,1 @@
-import "./styles.css";
-
-console.log("Webpack is working");
+import "..src/styles/main.css";
