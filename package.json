@@ -8,7 +8,8 @@
     "build": "webpack --config webpack.prod.js",
     "test": "jest",
     "watch": "jest --watch *.js",
-    "watchAll": "jest --watchAll"
+    "watchAll": "jest --watchAll",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -22,17 +23,18 @@
   },
   "homepage": "https://github.com/JavedanCode/phoenix-travails",
   "devDependencies": {
+    "@babel/preset-env": "^7.29.2",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^7.1.4",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.6",
+    "jest": "^30.3.0",
     "style-loader": "^4.0.0",
     "webpack": "^5.105.4",
     "webpack-cli": "^7.0.2",
     "webpack-dev-server": "^5.2.3",
-    "webpack-merge": "^6.0.1",
-    "@babel/preset-env": "^7.29.2",
-    "jest": "^30.3.0"
+    "webpack-merge": "^6.0.1"
   }
 }
